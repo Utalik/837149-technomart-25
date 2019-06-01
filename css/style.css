@@ -1,0 +1,47 @@
+body{
+    font-family: 'Cuprum', sans-serif;
+    background: f3f7f8;
+    font-size: 17px;
+    font-weight: 700px;
+    color: white;
+    width: 1200px;
+}
+
+p{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.user-regist {
+    font-size: 21px;
+    color: black;
+}
+
+.shop-navigation a {
+    color: #ffd180;
+}
+
+.user-listen a {
+    color: #ffd180;
+}
+
+h3{
+    color: red;
+}
+
+.user-listen a:focus, 
+.user-regist a:hover {
+    color: red;
+}
+
+.user-listen img {
+    display: block;
+}
+
+.site-navigation  {
+    text-align: center;
+}
