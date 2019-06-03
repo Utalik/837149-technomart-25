@@ -1,47 +1,82 @@
-body{
-    font-family: 'Cuprum', sans-serif;
-    background: f3f7f8;
+body {
+    font-family: 'Cuprum', "Arial", sans-serif;
+    background: #f3f7f8;
     font-size: 17px;
-    font-weight: 700px;
-    color: white;
-    width: 1200px;
 }
 
-p{
-    color: black;
+.main-navigation {
+    background-color: #293449;
+    height: 42px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.main-header-logo, .main-footer-logo {
+    background-color: #ee3643;
 }
+
+.log h3 {
+    color: #e9292a;
+    line-height: 17px;
+}
+
+.log p {
+    line-height: 14px;
+}
+
+.site-navigation {
+    background-color: #32425c;
+    display: center;
+    width: 940px;
+}
+
+.main-navigation p {
+    color: #ef5c67;
+    line-height: 17px;
+}
+
+.main-navigation a{
+    color: #f3f7f8;
+} 
 
 .user-regist {
     font-size: 21px;
     color: black;
 }
 
+.site-navigation a{
+    color: #e4e9ed;
+    line-height: 18px;
+}
+
 .shop-navigation a {
     color: #ffd180;
+}
+
+.main-navigation1 {
+    background-color: #32425c;
+ }
+ 
+ .main-navigation1 p {
+     line-height: 16px;
+ }
+
+.user-listen{
+    background-color: #293449;
 }
 
 .user-listen a {
     color: #ffd180;
 }
 
-h3{
-    color: red;
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.user-listen a:focus, 
-.user-regist a:hover {
-    color: red;
+.user-regist:hover,
+.user-regist a{
+    color: #ee3643;
 }
 
-.user-listen img {
-    display: block;
-}
-
-.site-navigation  {
-    text-align: center;
+.footer-logo-id a:focus {
+    color: #ee3643;;
 }
