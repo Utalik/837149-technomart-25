@@ -47,6 +47,15 @@ body {
     line-height: 18px;
 }
 
+.site-navigation a:hover{
+    background-color: #293449;
+}
+
+.site-navigation a:focus{
+    color: #8e939c;
+    background-color: #1d2739;
+}
+
 .shop-navigation a {
     color: #ffd180;
 }
@@ -67,16 +76,68 @@ body {
     color: #ffd180;
 }
 
-ul, a {
+.site ul,
+.site a{
     list-style-type: none;
     text-decoration: none;
 }
 
-.user-regist:hover,
-.user-regist a{
+.user-regist{
+    list-style-type: none;
+}
+
+.user-listen a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.user-listen a:focus{
+    color: #c73644;
+}
+
+.company ul,
+.company a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.main-navigation1 a,
+.main-navigation1 ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.log a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.user-regist a:hover{
     color: #ee3643;
+}
+
+.user-regist a:focus{
+    color: #c7c7c7;
 }
 
 .footer-logo-id a:focus {
     color: #ee3643;;
 }
+
+.user-regist a:focus{
+    color: #b2b2b2;
+}
+
+.site-navigation1 a{
+    color: #e4e9ed;
+    line-height: 18px;
+}
+
+.site-navigation1 a:focus{
+    color: #929caa;
+}
+
+.shop-navigation a:focus{
+    color: #998a6e;
+}
+
