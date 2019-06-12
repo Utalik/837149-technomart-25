@@ -9,13 +9,17 @@ body {
     height: 42px;
 }
 
-.main-header-logo, .main-footer-logo {
+.main-header-logo {
+    background-color: #ee3643;
+}
+
+.main-footer-logo {
     background-color: #ee3643;
 }
 
 .log h3 {
     color: #e9292a;
-    line-height: 17px;
+    line-height: 16px;
 }
 
 .log p {
@@ -28,9 +32,14 @@ body {
     width: 940px;
 }
 
-.main-navigation p {
+.log p:nth-child(1) {
     color: #ef5c67;
-    line-height: 17px;
+    line-height: 16px;
+}
+
+.log p:nth-child(2) {
+    color: #32425c;
+    line-height: 16px;
 }
 
 .main-navigation a{
@@ -140,3 +149,83 @@ body {
 .shop-navigation a:focus{
     color: #998a6e;
 }
+
+/* сетки */
+
+
+html,
+body {
+    width: 1200px;
+    height: 2250px;
+    background-color: #f4f7f9;
+}
+
+.main-header {
+    margin-bottom: 46px;
+}
+
+.main-navigation {
+    min-height: 50px;
+}
+
+.main-header-logo {
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    margin-left: 130px;
+    height: 16px;
+    width: 220px; 
+}
+
+.main-header-logo img {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.main-navigation img:nth-child(2) {
+    margin-left: 20px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.main-navigation a {
+    padding-left: 60px;
+}
+
+.log {
+    display: flex;
+    position: relative;
+}
+
+.log p:nth-child(1) {
+    text-align:left;
+    width: 175px;
+}
+
+.log h3 {
+    text-align:center;
+}
+
+.user-regist li {
+    display: inline;
+}
+
+.site-navigation {
+    margin-left: 120px;
+    height: 56px;
+}
+
+.site-navigation li {
+    display: inline;
+    padding: 30px;
+
+}
+
+.site-navigation1 li {
+    display: inline;
+}
+
+.shop-navigation li {
+    display: inline;
+}
+
